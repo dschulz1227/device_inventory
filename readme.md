@@ -2,5 +2,5 @@
 
 ```
 $ npm install
-$ npx snowpack dev
+$ npx run start
 ```
