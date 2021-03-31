@@ -1,7 +1,7 @@
 {
   "name": "vanillajs-starter",
   "version": "1.0.0",
-  "description": "``` $ npm install $ npx snowpack dev ```",
+  "description": "``` $ npm install $ npm run start ```",
   "main": "index.js",
   "scripts": {
      "start": "parcel index.html",
@@ -19,11 +19,10 @@
   },
   "homepage": "https://github.com/aspittel/vanillajs-starter#readme",
   "dependencies": {
-    "aws-amplify": "^3.3.26",
-    "typescript": "^4.2.3"
   },
   "devDependencies": {
     "babel-core": "*",
-    "parcel-bundler": "^1.12.5"
+    "babel-preset-env": "^1.7.0",
+    "parcel": "next"
   }
 }
