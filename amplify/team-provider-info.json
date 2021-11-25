@@ -1,0 +1,15 @@
+{
+  "myjs": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-vanillajs-starter-myjs-94734-authRole",
+      "UnauthRoleArn": "arn:aws:iam::376981104962:role/amplify-vanillajs-starter-myjs-94734-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::376981104962:role/amplify-vanillajs-starter-myjs-94734-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-vanillajs-starter-myjs-94734-deployment",
+      "UnauthRoleName": "amplify-vanillajs-starter-myjs-94734-unauthRole",
+      "StackName": "amplify-vanillajs-starter-myjs-94734",
+      "StackId": "arn:aws:cloudformation:us-east-1:376981104962:stack/amplify-vanillajs-starter-myjs-94734/04a766a0-4e07-11ec-8a37-0a7e7ad373fb",
+      "AmplifyAppId": "d31dpsxyxxd5ws"
+    }
+  }
+}

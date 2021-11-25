@@ -1,28 +1,34 @@
 {
-  "name": "vanillajs-starter",
-  "version": "1.0.0",
-  "description": "``` $ npm install $ npm run start ```",
-  "main": "index.js",
-  "scripts": {
-     "start": "parcel index.html",
-      "build":  "build index.html "
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aspittel/vanillajs-starter.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/aspittel/vanillajs-starter/issues"
-  },
-  "homepage": "https://github.com/aspittel/vanillajs-starter#readme",
-  "dependencies": {
-  },
-  "devDependencies": {
-    "babel-core": "*",
-    "babel-preset-env": "^1.7.0",
-    "parcel": "next"
-  }
+    "name": "vanillajs-starter",
+    "version": "1.0.0",
+    "description": "``` $ npm install $ npm run start ```",
+    "main": "index.js",
+    "scripts": {
+        "start": "parcel index.html",
+        "build": "build index.html ",
+        "amplify-modelgen": "node amplify\\scripts\\amplify-modelgen.js",
+        "amplify-push": "node amplify\\scripts\\amplify-push.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/aspittel/vanillajs-starter.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/aspittel/vanillajs-starter/issues"
+    },
+    "homepage": "https://github.com/aspittel/vanillajs-starter#readme",
+    "dependencies": {
+        "aws-amplify": "^4.3.8",
+        "typescript": "^4.5.2"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-preset-env": "^1.7.0",
+        "parcel": "next",
+        "ini": "^1.3.5",
+        "inquirer": "^6.5.1"
+    }
 }

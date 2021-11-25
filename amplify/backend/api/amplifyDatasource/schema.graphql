@@ -1,0 +1,10 @@
+type DeviceInventory @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  device: String!
+  brand: String!
+  model: String!
+  serial: String
+  inuse: Boolean!
+  location: String!
+  unitCost: String
+}
